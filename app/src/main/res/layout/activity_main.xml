@@ -1,0 +1,60 @@
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Question"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"/>
+
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Answer"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Flashcard"/>
+
+    <TextView
+        android:id="@+id/textViewQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/editTextAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Your Answer"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"/>
+
+    <TextView
+        android:id="@+id/textViewScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Score: 0/0"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
